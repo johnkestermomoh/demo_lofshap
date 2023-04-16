@@ -10,7 +10,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 requirements = ["requests>=2"]
 
 setup(
-    name="py_lof_shap",
+    name="lof_shap",
     version="0.1.0",
     description="Local Outlier Factor combining shapley values for detecting outlier and labelling signals",
     long_description=long_description,
