@@ -10,13 +10,13 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 requirements = ["requests>=2"]
 
 setup(
-    name="lof_shap",
+    name="demo_lofshap",
     version="0.1.0",
     description="Local Outlier Factor combining shapley values for detecting outlier and labelling signals",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/silverstream-tech/pylofshap",
-    packages=find_packages(),
+    url="https://github.com/johnkestermomoh/demo_lofshap.git",
+    packages=[find_packages(), 'demo_lofshap'],
     install_requires=requirements,
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",

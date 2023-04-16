@@ -5,7 +5,7 @@ import pytest
 # from sklearn.utils._testing import assert_array_equal
 from faker import Faker
 import pandas as pd
-from py_lof_shap.custom_fit_predict_lofshap import custom_fit_predict
+from demo_lofshap.custom_fit_predict_lofshap import custom_fit_predict
 
 # create the object
 fake = Faker()
