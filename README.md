@@ -1,4 +1,8 @@
 # demo_lofshap
+    install the package with the following line of code
+    pip install git+https://github.com/johnkestermomoh/demo_lofshap.git
+    
+`Example application shown below`
 
     --------
     Example: Using dataframe

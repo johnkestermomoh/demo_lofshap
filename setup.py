@@ -16,7 +16,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/johnkestermomoh/demo_lofshap.git",
-    packages=[find_packages(), 'demo_lofshap'],
+    packages=find_packages(),
     install_requires=requirements,
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
