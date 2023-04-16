@@ -7,11 +7,11 @@ HERE = path.abspath(path.dirname(__file__))
 # Get the long description from the README file
 with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
-requirements = ["requests>=2", "shap>=0.41.0"]
+requirements = ["requests>=2"]
 
 setup(
-    name="pylofshap",
-    version="0.0.8",
+    name="py_lof_shap",
+    version="0.1.0",
     description="Local Outlier Factor combining shapley values for detecting outlier and labelling signals",
     long_description=long_description,
     long_description_content_type="text/markdown",
