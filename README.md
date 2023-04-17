@@ -1,6 +1,6 @@
 ## demo_lofshap
     install the package with the following line of code
-    pip install git+https://github.com/silverstream-tech/pylofshap.git
+    pip install git+https://https://github.com/johnkestermomoh/demo_lofshap.git
     
 **Example of application shown below**
 
